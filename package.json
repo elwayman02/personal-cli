@@ -1,22 +1,39 @@
 {
-  "name": "jordan-hawker",
-  "version": "0.0.1-beta.1",
-  "description": "Jordan Hawker CLI",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [
-    "jordan",
-    "hawker"
-  ],
-  "author": "Jordan Hawker <hawker.jordan@gmail.com>",
-  "license": "MIT",
-  "preferGlobal": true,
-  "bin": {
-    "jordan-hawker": "index.js"
-  },
-  "dependencies": {
-    "commander": "^2.8.1",
-    "github": "^0.2.4"
-  }
+    "name": "jordan-hawker",
+    "version": "0.0.1-beta.1",
+    "description": "Jordan Hawker CLI",
+    "author": {
+        "name": "Jordan Hawker",
+        "email": "Hawker.Jordan@gmail.com"
+    },
+    "homepage": "https://github.com/elwayman02/jordan-hawker-cli",
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:elwayman02/jordan-hawker-cli.git"
+    },
+    "license": "MIT",
+    "preferGlobal": true,
+    "scripts": {
+        "test": "qunit-cli tests/tests.js"
+    },
+    "bugs": {
+        "mail": "Hawker.Jordan@gmail.com",
+        "url": "https://github.com/elwayman02/jordan-hawker-cli/issues/"
+    },
+    "keywords": [
+        "cli",
+        "jordan",
+        "hawker"
+    ],
+    "bin": {
+        "jordan-hawker": "index.js"
+    },
+    "dependencies": {
+        "commander": "^2.8.1",
+        "github": "^0.2.4"
+    },
+    "devDependencies": {
+        "qunitjs": "~1.18.0",
+        "qunit-cli": "~0.2.0"
+    }
 }
