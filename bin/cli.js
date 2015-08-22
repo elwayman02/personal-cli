@@ -1,5 +1,6 @@
 #! /usr/bin/env node
 
+var _ = require('lodash');
 var program = require('commander');
 var GitHubApi = require('github');
 
@@ -14,8 +15,51 @@ program.version('0.0.1-beta.1')
     .option('-s, --stackoverflow', 'StackOverflow profile')
     .option('-t, --twitter', 'Twitter profile')
     .option('-w, --website', 'Website')
-    .option('-+, --googleplus', 'Google+ profile')
-    .parse(process.argv);
+    .option('-+, --googleplus', 'Google+ profile');
+
+program.command('github')
+    .description('GitHub Profile Details')
+    .option('-f, --followers', 'List Followers')
+    .option('-r, --repos', 'List Repositories')
+    .action(function (options) {
+        var github = new GitHubApi({
+            version: "3.0.0",
+            protocol: "https",
+            host: "api.github.com",
+            timeout: 5000,
+            headers: {
+                "user-agent": "jordan-hawker"
+            }
+        });
+
+        if (options.followers) {
+            github.user.getFollowers({
+                user: 'elwayman02'
+            }, function (err, followers) {
+                console.log('Followers:');
+                var logins = _.chain(followers).sortBy('login').map('login').value();
+                _.each(logins, function (follower) {
+                    console.log(follower);
+                });
+            });
+        }
+        if (options.repos) {
+            github.repos.getFromUser({
+                user: 'elwayman02',
+                type: 'owner',
+                per_page: 100
+            }, function (err, repos) {
+                console.log('Repositories:');
+                var names = _.chain(repos).filter('fork', false).map('name').value();
+                _.each(names, function (repo) {
+                    console.log(repo);
+                })
+            });
+        }
+    });
+
+// Finish configuring the program and parse the CLI arguments
+program.parse(process.argv);
 
 if (!process.argv.slice(2).length) {
     program.help();
