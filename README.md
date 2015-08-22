@@ -16,16 +16,117 @@ npm install -g jordan-hawker
 #### Help
 
 ```shell
-jordan-hawker
-```
-or
-```shell
 jordan-hawker -h
 ```
-or
+*Alias: --help*
+
+#### All
+
+Runs all main commands (no sub-commands)
+
 ```shell
-jordan-hawker --help
+jordan-hawker -a
 ```
+*Alias: --all*
+
+#### Blog
+
+Display a link to my blog
+
+```shell
+jordan-hawker -b
+```
+*Alias: --blog*
+
+#### Contact
+
+Display a link to my contact page
+
+```shell
+jordan-hawker -c
+```
+*Alias: --contact*
+
+#### Email
+
+Display my email address
+
+```shell
+jordan-hawker -e
+```
+*Alias: --email*
+
+#### GitHub
+
+Display a link to my GitHub page
+
+```shell
+jordan-hawker -g
+```
+*Alias: --github*
+
+You can also access more GitHub information using the `github` command.
+
+The following options are supported:
+
+##### Repositories
+
+```shell
+jordan-hawker github -r
+```
+*Alias: --repos*
+
+##### Followers
+
+```shell
+jordan-hawker github -f
+```
+*Alias: --followers*
+
+#### Google+
+
+Display my Google+ handle
+
+```shell
+jordan-hawker -+
+```
+*Alias: --googleplus*
+
+#### LinkedIn
+
+Display a link to my LinkedIn profile
+
+```shell
+jordan-hawker -l
+```
+*Alias: --linkedin*
+
+#### StackOverflow
+
+Display a link to my StackOverflow profile
+
+```shell
+jordan-hawker -s
+```
+*Alias: --stackoverflow*
+
+#### Twitter
+
+Display my Twitter handle
+
+```shell
+jordan-hawker -t
+```
+*Alias: --twitter*
+
+#### Website
+
+Display a link to my website
+
+```shell
+jordan-hawker -w
+```
+*Alias: --website*
 
 ## Contributing
 
