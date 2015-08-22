@@ -11,7 +11,7 @@
 npm install -g jordan-hawker
 ```
 
-View Help:
+### Help
 
 ```shell
 jordan-hawker
