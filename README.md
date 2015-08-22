@@ -31,3 +31,7 @@ jordan-hawker --help
 
 Check out [CONTRIBUTING.md](https://github.com/elwayman02/jordan-hawker-cli/blob/master/CONTRIBUTING.md) 
 for more information on contributing to this project.
+
+## License
+
+[MIT](http://opensource.org/licenses/MIT) ([LICENSE.md](https://github.com/elwayman02/jordan-hawker-cli/blob/master/LICENSE.md))
