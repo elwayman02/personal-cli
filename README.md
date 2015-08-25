@@ -4,6 +4,9 @@
 [![npm version](https://badge.fury.io/js/jordan-hawker.svg)](http://badge.fury.io/js/jordan-hawker)
 [![Dependency Status](https://www.versioneye.com/user/projects/55d81ce38d9c4b001b000001/badge.svg?style=flat)](https://www.versioneye.com/user/projects/55d81ce38d9c4b001b000001)
 [![Code Climate](https://codeclimate.com/github/elwayman02/jordan-hawker-cli/badges/gpa.svg)](https://codeclimate.com/github/elwayman02/jordan-hawker-cli)
+[![Codacy Badge](https://www.codacy.com/project/badge/a9ce5d63509844308ad226082801c1a0)](https://www.codacy.com/app/hawker-jordan/jordan-hawker-cli)
+
+[![NPM](https://nodei.co/npm/jordan-hawker.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/jordan-hawker/)
 
 ## Installation
 
