@@ -1,10 +1,8 @@
 # Jordan Hawker CLI
 
-[![Build Status](https://travis-ci.org/elwayman02/jordan-hawker-cli.svg?branch=master)](https://travis-ci.org/elwayman02/jordan-hawker-cli)
-[![npm version](https://badge.fury.io/js/jordan-hawker.svg)](http://badge.fury.io/js/jordan-hawker)
-[![Dependency Status](https://www.versioneye.com/user/projects/55d81ce38d9c4b001b000001/badge.svg?style=flat)](https://www.versioneye.com/user/projects/55d81ce38d9c4b001b000001)
-[![Code Climate](https://codeclimate.com/github/elwayman02/jordan-hawker-cli/badges/gpa.svg)](https://codeclimate.com/github/elwayman02/jordan-hawker-cli)
-[![Codacy Badge](https://www.codacy.com/project/badge/a9ce5d63509844308ad226082801c1a0)](https://www.codacy.com/app/hawker-jordan/jordan-hawker-cli)
+[![Build Status](https://travis-ci.org/elwayman02/personal-cli.svg?branch=master)](https://travis-ci.org/elwayman02/personal-cli)
+[![Code Climate](https://codeclimate.com/github/elwayman02/personal-cli/badges/gpa.svg)](https://codeclimate.com/github/elwayman02/personal-cli)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/201873647a8140e89a138512dca3f06c)](https://www.codacy.com/app/hawker-jordan/personal-cli?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=elwayman02/personal-cli&amp;utm_campaign=Badge_Grade)
 
 [![NPM](https://nodei.co/npm/jordan-hawker.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/jordan-hawker/)
 
