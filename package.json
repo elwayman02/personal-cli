@@ -35,6 +35,6 @@
   },
   "devDependencies": {
     "qunit-cli": "~0.2.0",
-    "qunitjs": "~1.23.1"
+    "qunitjs": "~2.0.1"
   }
 }
