@@ -30,11 +30,11 @@
   },
   "dependencies": {
     "commander": "^2.8.1",
-    "github": "^0.2.4",
+    "github": "^7.0.0",
     "lodash": "^4.5.1"
   },
   "devDependencies": {
     "qunit-cli": "~0.2.0",
-    "qunitjs": "~1.23.1"
+    "qunitjs": "~2.0.1"
   }
 }
